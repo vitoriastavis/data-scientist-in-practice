@@ -22,6 +22,40 @@ The URL is an ngrok.io type. As it expires in some time, here is some screenshot
 
 # Data analysis
 
+Variables and their meaning:
+*   client_code: client code in the conglomerate
+*   sex: sex
+*   marital status: single/married
+*   dependents: if the person has children and how many
+*   education: schooling
+*   employed: if the person is working or not
+*   income: monthly income
+*   spouses_income: income of the person's spouse
+*   loan_value: value of the requested loan (in thousands)
+*   installment: value of the monthly installment 
+*   credit_history: if the person has delayed a payment or is in breach
+*   realty: if the person owns a place
+*   loan_approval: if there was approval of the requested loan (variable to be predicted)
+*   
+There were 614 entries and 13 columns. Some of the information was incomplete. 
+![Screenshot_20](https://user-images.githubusercontent.com/72163805/112728580-c6a1cb80-8f06-11eb-8867-eb16241dddf8.png)
+
+75% of the income and loan_value equal to 5795 and 168000, respectively. Considering that the maximum value for those variables is 81000 and 700000, this means that there are less people who receive a lot of money and want to loan a lot of money.
+![Screenshot_19](https://user-images.githubusercontent.com/72163805/112728712-50ea2f80-8f07-11eb-8d8f-d647100263bf.png)
+
+The characteristics with higher frequency were: male, married, graduated, with 0 children and own a semi urban property:
+
+![Screenshot_11](https://user-images.githubusercontent.com/72163805/112728931-6ad84200-8f08-11eb-9a2c-a5941e57457d.png)
+![Screenshot_12](https://user-images.githubusercontent.com/72163805/112728932-6b70d880-8f08-11eb-8f31-3291b453476d.png)
+![Screenshot_13](https://user-images.githubusercontent.com/72163805/112728933-6b70d880-8f08-11eb-8630-78266c5ee909.png)
+![Screenshot_14](https://user-images.githubusercontent.com/72163805/112728934-6b70d880-8f08-11eb-9a9b-f29651172c64.png)
+![Screenshot_15](https://user-images.githubusercontent.com/72163805/112728935-6c096f00-8f08-11eb-926b-1431acdeea6f.png)
+![Screenshot_8](https://user-images.githubusercontent.com/72163805/112728939-6ca20580-8f08-11eb-96ee-15b37c98d5e4.png)
+![Screenshot_9](https://user-images.githubusercontent.com/72163805/112728940-6ca20580-8f08-11eb-9de4-0e92dc885bcf.png)
+![Screenshot_10](https://user-images.githubusercontent.com/72163805/112728941-6d3a9c00-8f08-11eb-8568-4ad21bac6d78.png)
+![Screenshot_7](https://user-images.githubusercontent.com/72163805/112728942-6d3a9c00-8f08-11eb-9f7a-cfe642539846.png)
+![Screenshot_5](https://user-images.githubusercontent.com/72163805/112728944-6dd33280-8f08-11eb-9dcc-be5f79c76f44.png)
+![Screenshot_6](https://user-images.githubusercontent.com/72163805/112728945-6dd33280-8f08-11eb-8592-28c3bd262bec.png)
 
 
 # Contributing
