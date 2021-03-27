@@ -1,4 +1,6 @@
 # Data Scientist in Practice
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges)
 
 Welcome to my first data science project. It is part of the Data Scientist in Practice Marathon 3.0, from the YouTube portuguese channel https://www.youtube.com/channel/UCd3ThZLzVDDnKSZMsbK0icg.
 The marathon happened on 22th, 24th, 26th and 29th of March 2021. The teacher, Eduardo, shared the data and the code with comments, as well as video classes teaching how the code works. 
@@ -22,7 +24,7 @@ The URL is an ngrok.io type. As it expires in some time, here is some screenshot
 
 # Data analysis
 
-Variables and their meaning:
+**Variables and their meaning**:
 *   client_code: client code in the conglomerate
 *   sex: sex
 *   marital status: single/married
@@ -43,19 +45,20 @@ There were 614 entries and 13 columns. Some of the information was incomplete.
 75% of the income and loan_value equal to 5795 and 168000, respectively. Considering that the maximum value for those variables is 81000 and 700000, this means that there are less people who receive a lot of money and want to loan a lot of money.
 ![Screenshot_19](https://user-images.githubusercontent.com/72163805/112728712-50ea2f80-8f07-11eb-8d8f-d647100263bf.png)
 
-The characteristics with higher frequency were: male, married, graduated, with 0 children and own a semi urban property:
+The characteristics with higher frequency were: male, married, graduated, with 0 children, with debts and own a semi urban property:
 
 ![Screenshot_11](https://user-images.githubusercontent.com/72163805/112728931-6ad84200-8f08-11eb-9a2c-a5941e57457d.png)
 ![Screenshot_12](https://user-images.githubusercontent.com/72163805/112728932-6b70d880-8f08-11eb-8f31-3291b453476d.png)
 ![Screenshot_13](https://user-images.githubusercontent.com/72163805/112728933-6b70d880-8f08-11eb-8630-78266c5ee909.png)
 ![Screenshot_14](https://user-images.githubusercontent.com/72163805/112728934-6b70d880-8f08-11eb-9a9b-f29651172c64.png)
 ![Screenshot_15](https://user-images.githubusercontent.com/72163805/112728935-6c096f00-8f08-11eb-926b-1431acdeea6f.png)
-![Screenshot_8](https://user-images.githubusercontent.com/72163805/112728939-6ca20580-8f08-11eb-96ee-15b37c98d5e4.png)
-![Screenshot_9](https://user-images.githubusercontent.com/72163805/112728940-6ca20580-8f08-11eb-9de4-0e92dc885bcf.png)
 ![Screenshot_10](https://user-images.githubusercontent.com/72163805/112728941-6d3a9c00-8f08-11eb-8568-4ad21bac6d78.png)
 ![Screenshot_7](https://user-images.githubusercontent.com/72163805/112728942-6d3a9c00-8f08-11eb-9f7a-cfe642539846.png)
 ![Screenshot_5](https://user-images.githubusercontent.com/72163805/112728944-6dd33280-8f08-11eb-9dcc-be5f79c76f44.png)
+![Screenshot_8](https://user-images.githubusercontent.com/72163805/112728939-6ca20580-8f08-11eb-96ee-15b37c98d5e4.png)
+![Screenshot_9](https://user-images.githubusercontent.com/72163805/112728940-6ca20580-8f08-11eb-9de4-0e92dc885bcf.png)
 ![Screenshot_6](https://user-images.githubusercontent.com/72163805/112728945-6dd33280-8f08-11eb-8592-28c3bd262bec.png)
+
 
 
 # Contributing
