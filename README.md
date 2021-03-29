@@ -38,11 +38,12 @@ The URL is an ngrok.io type. As it expires in some time, here is some screenshot
 *   credit_history: if the person has delayed a payment or is in breach
 *   realty: if the person owns a place
 *   loan_approval: if there was approval of the requested loan (variable to be predicted)
-*   
+
 There were 614 entries and 13 columns. Some of the information was incomplete. 
 ![Screenshot_20](https://user-images.githubusercontent.com/72163805/112728580-c6a1cb80-8f06-11eb-8867-eb16241dddf8.png)
 
 75% of the income and loan_value equal to 5795 and 168000, respectively. Considering that the maximum value for those variables is 81000 and 700000, this means that there are less people who receive a lot of money and want to loan a lot of money.
+<br>
 ![Screenshot_19](https://user-images.githubusercontent.com/72163805/112728712-50ea2f80-8f07-11eb-8d8f-d647100263bf.png)
 
 The characteristics with higher frequency were: male, married, graduated, with 0 children, with debts and own a semi urban property:
@@ -59,7 +60,18 @@ The characteristics with higher frequency were: male, married, graduated, with 0
 ![Screenshot_9](https://user-images.githubusercontent.com/72163805/112728940-6ca20580-8f08-11eb-9de4-0e92dc885bcf.png)
 ![Screenshot_6](https://user-images.githubusercontent.com/72163805/112728945-6dd33280-8f08-11eb-8592-28c3bd262bec.png)
 
+After creating the predictive machine, we can analyse the variables that influenced the most.
+<br>
+![Screenshot_4](https://user-images.githubusercontent.com/72163805/112884981-8da05d00-90a6-11eb-84a5-2e6d5892581f.png)
 
+Since I ended up changing the random_state parameter of the train_test_split function from sklearn, my result was different from the teacher's, which is a good thing to notice and explore. The variables' influence ended up different, and the accuracy score was higher. 
+
+
+# Conclusion
+
+Learning how the random forest algorithm and its parameters work was incredible, it surely increased my interest in machine learning. 
+It was great to notice how small changes change the outcome, and how there are many ways to do the same thing in data science.
+[march 2021] I will be applying those concepts to an analysis of the data in my Netflix account. It will soon be on my GitHub profile.
 
 # Contributing
 Pull requests are welcome! For major changes and suggestions, please open an issue to discuss what you would like to change. I would love to learn more.
