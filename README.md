@@ -72,6 +72,7 @@ Since I ended up changing the random_state parameter of the train_test_split fun
 
 Learning how the random forest algorithm and its parameters work was incredible, it surely increased my interest in machine learning. 
 It was great to notice how small changes change the outcome, and how there are many ways to do the same thing in data science.
+<br>
 [march 2021] I will be applying those concepts to an analysis of the data in my Netflix account. It will soon be on my GitHub profile.
 
 # Contributing
